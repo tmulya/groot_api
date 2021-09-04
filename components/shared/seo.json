@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_seos",
+  "info": {
+    "name": "seo",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "string"
+    },
+    "alt": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.imageshared"
+    }
+  }
+}

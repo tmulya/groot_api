@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_imageshareds",
+  "info": {
+    "name": "Imageshared",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
