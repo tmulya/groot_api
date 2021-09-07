@@ -46,7 +46,8 @@
       "pluginOptions": {}
     },
     "header_image": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "headline": {
       "type": "string"
@@ -58,6 +59,28 @@
       "type": "string"
     },
     "headline_cta_url": {
+      "type": "string"
+    },
+    "gallery": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "gallery_enable": {
+      "type": "boolean",
+      "default": false
+    },
+    "gallery_title": {
+      "type": "string"
+    },
+    "gallery_subtitle": {
       "type": "string"
     }
   }
